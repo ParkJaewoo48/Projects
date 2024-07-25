@@ -12,28 +12,28 @@ const Header = (props) => {
         <nav className="header__menu">
           <ul>
             <li>
-              <a href="/">소개</a>
+              <a href="/intro">소개</a>
             </li>
             <li>
-              <a href="/">이주의 공연</a>
+              <a href="/this_week">이주의 공연</a>
             </li>
             <li>
-              <a href="/">공연 정보</a>
+              <a href="/info_perform">공연 정보</a>
             </li>
             <li>
-              <a href="/">공연장 찾기</a>
+              <a href="/find_perform">공연장 찾기</a>
             </li>
             <li>
-              <a href="/">공연 후기</a>
+              <a href="/review_perform">공연 후기</a>
             </li>
             <li>
-              <a href="/">공연 홍보</a>
+              <a href="/promote_perform">공연 홍보</a>
             </li>
             <li>
-              <a href="/">같이봐요</a>
+              <a href="/together">같이봐요</a>
             </li>
             <li>
-              <a href="/">자유게시판</a>
+              <a href="/talk">자유게시판</a>
             </li>
           </ul>
         </nav>

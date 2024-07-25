@@ -12,7 +12,7 @@ import Text from "../components/Text";
 const Home = () => {
   return (
     <div>
-      <Header></Header>
+      <Header />
       <Main>
         <Slider element="nexon" />
         <Image element="section nexon" title="FDW에 오신 걸 환영합니다!" />
