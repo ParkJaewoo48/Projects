@@ -11,6 +11,8 @@ import Review from "./pages/Review";
 import Promotion from "./pages/Promotion";
 import Together from "./pages/Together";
 import Talk from "./pages/Talk";
+import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/promote_perform" element={<Promotion />} />
         <Route path="/together" element={<Together />} />
         <Route path="/talk" element={<Talk />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </>
   );

@@ -1,10 +1,9 @@
 import React from "react";
-//import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Login = () => {
   return (
     <div>
       <Header />
@@ -14,4 +13,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Login;

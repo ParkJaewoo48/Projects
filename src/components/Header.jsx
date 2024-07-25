@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 
 const Header = (props) => {
   return (
@@ -39,8 +38,8 @@ const Header = (props) => {
           </ul>
         </nav>
         <div className="header__member">
-          <a href="/">로그인</a>
-          <a href="/">회원가입</a>
+          <a href="/login">로그인</a>
+          <a href="/sign-up">회원가입</a>
         </div>
       </div>
     </header>
