@@ -11,22 +11,22 @@ const ImgText = (props) => {
           <p className="desc">뮤지션과 리스너들을 위한 사이트</p>
           <ul className="list">
             <li>
-              <a href="/">인디스트릿</a>
+              <a href="https://indistreet.com/">인디스트릿</a>
             </li>
             <li>
-              <a href="/">페이스북</a>
+              <a href="https://www.facebook.com/">페이스북</a>
             </li>
             <li>
-              <a href="/">네이버</a>
+              <a href="https://www.naver.com">네이버</a>
             </li>
             <li>
-              <a href="/">인스타그램</a>
+              <a href="https://www.instagram.com">인스타그램</a>
             </li>
             <li>
-              <a href="/">트위터</a>
+              <a href="https://x.com">트위터</a>
             </li>
             <li>
-              <a href="/">Youtube 사이트</a>
+              <a href="https://www.youtube.com/">Youtube 사이트</a>
             </li>
           </ul>
         </div>
