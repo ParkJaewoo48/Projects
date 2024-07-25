@@ -1,45 +1,46 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
     <header id="headerType" className={`header__wrap ${props.element}`}>
       <div className="header__inner">
         <div className="header__logo">
-          <a href="/">
+          <NavLink to="/">
             FDW <em>4-day week</em>
-          </a>
+          </NavLink>
         </div>
         <nav className="header__menu">
           <ul>
             <li>
-              <a href="/intro">소개</a>
+              <NavLink to="/intro">소개</NavLink>
             </li>
             <li>
-              <a href="/this_week">이주의 공연</a>
+              <NavLink to="/this_week">이주의 공연</NavLink>
             </li>
             <li>
-              <a href="/info_perform">공연 정보</a>
+              <NavLink to="/info_perform">공연 정보</NavLink>
             </li>
             <li>
-              <a href="/find_perform">공연장 찾기</a>
+              <NavLink to="/find_perform">공연장 찾기</NavLink>
             </li>
             <li>
-              <a href="/review_perform">공연 후기</a>
+              <NavLink to="/review_perform">공연 후기</NavLink>
             </li>
             <li>
-              <a href="/promote_perform">공연 홍보</a>
+              <NavLink to="/promote_perform">공연 홍보</NavLink>
             </li>
             <li>
-              <a href="/together">같이봐요</a>
+              <NavLink to="/together">같이봐요</NavLink>
             </li>
             <li>
-              <a href="/talk">자유게시판</a>
+              <NavLink to="/talk">자유게시판</NavLink>
             </li>
           </ul>
         </nav>
         <div className="header__member">
-          <a href="/login">로그인</a>
-          <a href="/sign-up">회원가입</a>
+          <NavLink to="/login">로그인</NavLink>
+          <NavLink to="/signup">회원가입</NavLink>
         </div>
       </div>
     </header>
