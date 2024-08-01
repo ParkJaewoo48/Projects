@@ -14,7 +14,7 @@ function Arrow(props) {
   );
 }
 
-const ConcertList = () => {
+function ConcertList() {
   const settings = {
     className: "center",
     infinite: true,
@@ -96,7 +96,7 @@ const ConcertList = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ConcertList;
 

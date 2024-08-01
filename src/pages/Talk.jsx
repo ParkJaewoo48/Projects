@@ -6,7 +6,7 @@ const Talk = () => {
   return (
     <div>
       <Header />
-      <h1>자유게시판</h1>
+      <h1>인디토크</h1>
       <Footer />
     </div>
   );
