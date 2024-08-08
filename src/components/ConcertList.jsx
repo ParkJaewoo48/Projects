@@ -19,7 +19,7 @@ const ConcertList = () => {
     className: "center",
     infinite: true,
     centerPadding: "60px",
-    sidesToShow: 4,
+    slidesToShow: 4,
     swipeToSlide: true,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
