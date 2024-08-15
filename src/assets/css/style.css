@@ -91,14 +91,14 @@
   height: 370px;
   padding: 200px 30px 30px 30px;
   box-sizing: border-box;
-  color: #fff;
+  color: black;
 }
-.image.img1 {
+/* .image.img1 {
   background: url(../img/image_bg01.jpg) no-repeat center / cover;
 }
 .image.img2 {
   background: url(../img/image_bg02.jpg) no-repeat center / cover;
-}
+} */
 .image__title {
   font-size: 32px;
   margin-bottom: 10px;

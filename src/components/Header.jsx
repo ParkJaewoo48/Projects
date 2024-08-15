@@ -10,9 +10,6 @@ const Header = (props) => {
         </div>
         <nav className="header__menu">
           <ul>
-            {/* <li>
-              <NavLink to="/this_week">이주의 공연</NavLink>
-              </li> */}
             <li>
               <NavLink to="/talk">인디토크</NavLink>
             </li>
@@ -22,9 +19,6 @@ const Header = (props) => {
             <li>
               <NavLink to="/info_perform">공연 정보</NavLink>
             </li>
-            {/* <li>
-              <NavLink to="/find_perform">공연장 찾기</NavLink>
-              </li> */}
             <li>
               <NavLink to="/review_perform">공연 후기</NavLink>
             </li>
