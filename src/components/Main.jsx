@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <main id="main" role="main">
       <ConcertList element="nexon" />
-      <Preview element="section nexon" title="미리보기" />
+      <Preview element="section nexon" />
       {/* <Card element="section nexon" title="공연 후기" /> */}
     </main>
   );

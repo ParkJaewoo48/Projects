@@ -5,11 +5,9 @@ import PostList from "./PostList";
 const Preview = (props) => {
   return (
     <section id="imageType" className={`imageType__wrap ${props.element}`}>
-      <h2>{props.title}</h2>
-      <p>주요 게시판 한 눈에 보기.</p>
       <div className="image__inner container">
         <post className="image img1">
-          <h3 className="image__title">인디토크 게시판</h3>
+          <h3 className="image__title">인디토크</h3>
           <p className="image__desc">
             <PostList />
           </p>
@@ -18,11 +16,31 @@ const Preview = (props) => {
           </NavLink>
         </post>
         <post className="image img2">
-          <h3 className="image__title">같이봐요 게시판</h3>
+          <h3 className="image__title">같이봐요</h3>
           <p className="image__desc">
             <PostList />
           </p>
           <NavLink className="image__btn yellow" to="/together">
+            자세히 보기
+          </NavLink>
+        </post>
+      </div>
+      <div className="image__inner container">
+        <post className="image img1">
+          <h3 className="image__title">공연후기</h3>
+          <p className="image__desc">
+            <PostList />
+          </p>
+          <NavLink className="image__btn skyblue" to="/review_perform">
+            자세히 보기
+          </NavLink>
+        </post>
+        <post className="image img2">
+          <h3 className="image__title">공연홍보</h3>
+          <p className="image__desc">
+            <PostList />
+          </p>
+          <NavLink className="image__btn grey" to="/promote_perform">
             자세히 보기
           </NavLink>
         </post>
