@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import Preview from "./Preview";
 import ConcertList from "./ConcertList";
 // import PostList from "./PostList";

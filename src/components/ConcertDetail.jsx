@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import events from "./ConcertData.js";
+import events from "./ConcertData";
 import "../assets/css/ConcertDetail.css";
 
 function ConcertDetail({ eventId, onClose }) {
@@ -28,7 +28,7 @@ function ConcertDetail({ eventId, onClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>
-          ×
+          x
         </button>
         <div className="detail-container">
           <div className="detail-img">
