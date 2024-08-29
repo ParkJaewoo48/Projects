@@ -4,7 +4,6 @@ import "./assets/css/reset.css";
 import "./assets/css/style.css";
 import Home from "./pages/Home";
 import Intro from "./pages/Intro";
-import ThisWeek from "./pages/ThisWeek";
 import Info from "./pages/Info";
 import Find from "./pages/Find";
 import Review from "./pages/Review";
@@ -20,7 +19,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/intro" element={<Intro />} />
-        <Route path="/this_week" element={<ThisWeek />} />
         <Route path="/info_perform" element={<Info />} />
         <Route path="/find_perform" element={<Find />} />
         <Route path="/review_perform" element={<Review />} />
