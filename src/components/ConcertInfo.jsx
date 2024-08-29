@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import ConcertDetail from "./ConcertDetail.jsx";
-import events from "./ConcertData.js";
+import ConcertDetail from "./ConcertDetail";
+import events from "./Data.js";
 import "../assets/css/ConcertList.css";
 
 function ConcertInfo() {
