@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CommonTable from "./table/CommonTable";
 import CommonTableColumn from "./table/CommonTableColumn";
 import CommonTableRow from "./table/CommonTableRow";
-import { postList } from "../Data";
+import { postList } from "../PostData";
 
 const PostList = (props) => {
   const [dataList, setDataList] = useState([]);
