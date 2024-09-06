@@ -28,7 +28,7 @@ function ConcertDetail({ eventId, onClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>
-          x
+          ×
         </button>
         <div className="detail-container">
           <div className="detail-img">
@@ -37,10 +37,10 @@ function ConcertDetail({ eventId, onClose }) {
           <div className="detail-info">
             <h2>{event.title}</h2>
             <p>
-              <strong>날짜:</strong> {event.date}
+              <strong>공연일시 : </strong> {event.date}
             </p>
             <p>
-              <strong>장소:</strong> {event.place}
+              <strong>공연장소 : </strong> {event.place}
             </p>
             <a
               href={event.url}

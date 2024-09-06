@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ConcertDetail from "./ConcertDetail";
-import events from "./Data.js";
+import events from "./Data";
 import "../assets/css/ConcertList.css";
 
 function ConcertInfo() {
@@ -45,8 +45,8 @@ function ConcertInfo() {
             <img src={event.imageUrl} alt="대표 이미지 준비 중" />
             <div className="card-info">
               <h3>{event.title}</h3>
-              <p>{event.date}</p>
-              <p>{event.place}</p>
+              <p>공연일시 : {event.date}</p>
+              <p>공연장소 : {event.place}</p>
             </div>
             <div className="card-button">
               <button onClick={() => handleDetailsClick(event.id)}>
