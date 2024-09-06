@@ -10,9 +10,10 @@
   border-bottom: 1px solid #ccc;
 }
 .header__logo {
+  font-family: Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   width: 20%;
 }
 .header__logo em {

@@ -6,7 +6,7 @@ const Header = (props) => {
     <header id="headerType" className={`header__wrap ${props.element}`}>
       <div className="header__inner">
         <div className="header__logo">
-          <NavLink to="/">Gig-vibe</NavLink>
+          <NavLink to="/">Gig-Vibe</NavLink>
         </div>
         <nav className="header__menu">
           <ul>
