@@ -6,20 +6,21 @@ const Footer = (props) => {
       <h2 className="blind">푸터 영역</h2>
       <div className="footer__inner container">
         <div className="footer__menu">
+          <div></div>
           <div>
             <h3>사이트</h3>
             <ul>
               <li>
-                <a href="/">사이트 1</a>
+                <a href="/">인디스트릿</a>
               </li>
               <li>
-                <a href="/">사이트 2</a>
+                <a href="/">인스타그램</a>
               </li>
               <li>
-                <a href="/">사이트 3</a>
+                <a href="/">공연영상</a>
               </li>
               <li>
-                <a href="/">사이트 4</a>
+                <a href="/">현장예매</a>
               </li>
             </ul>
           </div>
@@ -27,10 +28,10 @@ const Footer = (props) => {
             <h3>소통 마당</h3>
             <ul>
               <li>
-                <a href="/">자유게시판</a>
+                <a href="/">인디토크</a>
               </li>
               <li>
-                <a href="/">자기소개</a>
+                <a href="/">공연 후기</a>
               </li>
             </ul>
           </div>
@@ -38,44 +39,10 @@ const Footer = (props) => {
             <h3>공연장</h3>
             <ul>
               <li>
-                <a href="/">슬라이드 유형01</a>
+                <a href="/">공연 정보</a>
               </li>
               <li>
-                <a href="/">슬라이드 유형01</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3></h3>
-            <ul>
-              <li>
-                <a href="/">이미지 유형01</a>
-              </li>
-              <li>
-                <a href="/">이미지 유형02</a>
-              </li>
-              <li>
-                <a href="/">이미지/텍스트 유형01</a>
-              </li>
-              <li>
-                <a href="/">이미지/텍스트 유형01</a>
-              </li>
-              <li>
-                <a href="/">텍스트 유형01</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>카드 유형</h3>
-            <ul>
-              <li>
-                <a href="/">카드 유형01</a>
-              </li>
-              <li>
-                <a href="/">카드 유형02</a>
-              </li>
-              <li>
-                <a href="/">카드 유형03</a>
+                <a href="/">공연 홍보</a>
               </li>
             </ul>
           </div>
