@@ -25,7 +25,7 @@ const Preview = (props) => {
           </NavLink>
         </post>
       </div>
-      <div className="image__inner container">
+      {/* <div className="image__inner container">
         <post className="image img1">
           <h3 className="image__title">공연후기</h3>
           <p className="image__desc">
@@ -44,7 +44,7 @@ const Preview = (props) => {
             자세히 보기
           </NavLink>
         </post>
-      </div>
+      </div> */}
     </section>
   );
 };

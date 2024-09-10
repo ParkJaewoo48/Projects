@@ -13,6 +13,7 @@ import Talk from "./pages/Talk";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ConcertDetail from "./components/ConcertDetail";
+import MyPage from "./pages/MyPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/concertinfo/:id" element={<ConcertDetail />} />
+        <Route path="/mypage" element={<MyPage />} />
       </Routes>
     </>
   );

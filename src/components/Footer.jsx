@@ -81,21 +81,15 @@ const Footer = (props) => {
           </div>
           <div>
             <h3>마이 페이지</h3>
-            {/* <ul>
+            <ul>
               <li>
-                <a href="/">푸터 메뉴 유형01</a>
+                <a href="/mypage">마이페이지</a>
               </li>
-              <li>
-                <a href="/">푸터 컨택트 유형02</a>
-              </li>
-              <li>
-                <a href="/">푸터 이메일 유형03</a>
-              </li>
-            </ul> */}
+            </ul>
           </div>
         </div>
         <div className="footer__right">
-          2024 FDW. Make Music Great Again
+          2024 Gig-Vibe.
           <br />
           All rights reserved.
         </div>
