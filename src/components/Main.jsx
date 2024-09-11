@@ -8,7 +8,6 @@ const Main = () => {
     <main id="main" role="main">
       <ConcertList element="nexon" />
       <Preview element="section nexon" />
-      {/* <Card element="section nexon" title="공연 후기" /> */}
     </main>
   );
 };
