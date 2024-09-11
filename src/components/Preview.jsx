@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PostList from "./PostList";
+import PostList from "./PrePostList";
 
 const Preview = (props) => {
   return (
