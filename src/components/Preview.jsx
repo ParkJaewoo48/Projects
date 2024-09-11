@@ -6,7 +6,7 @@ const Preview = (props) => {
   return (
     <section id="imageType" className={`imageType__wrap ${props.element}`}>
       <div className="image__inner container">
-        <post className="image img1">
+        <div>
           <h3 className="image__title">인디토크</h3>
           <p className="image__desc">
             <PostList />
@@ -14,8 +14,8 @@ const Preview = (props) => {
           <NavLink className="image__btn" to="/talk">
             자세히 보기
           </NavLink>
-        </post>
-        <post className="image img2">
+        </div>
+        <div>
           <h3 className="image__title">같이봐요</h3>
           <p className="image__desc">
             <PostList />
@@ -23,10 +23,10 @@ const Preview = (props) => {
           <NavLink className="image__btn yellow" to="/together">
             자세히 보기
           </NavLink>
-        </post>
+        </div>
       </div>
       <div className="image__inner container">
-        <post className="image img1">
+        <div>
           <h3 className="image__title">공연후기</h3>
           <p className="image__desc">
             <PostList />
@@ -34,8 +34,8 @@ const Preview = (props) => {
           <NavLink className="image__btn skyblue" to="/review_perform">
             자세히 보기
           </NavLink>
-        </post>
-        <post className="image img2">
+        </div>
+        <div>
           <h3 className="image__title">공연홍보</h3>
           <p className="image__desc">
             <PostList />
@@ -43,7 +43,7 @@ const Preview = (props) => {
           <NavLink className="image__btn grey" to="/promote_perform">
             자세히 보기
           </NavLink>
-        </post>
+        </div>
       </div>
     </section>
   );
