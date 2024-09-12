@@ -25,9 +25,7 @@ const Header = (props) => {
             <li>
               <NavLink to="/promote_perform">공연 홍보</NavLink>
             </li>
-            <li>
-              <NavLink to="/intro">소개</NavLink>
-            </li>
+            <li>{/* <NavLink to="/intro">소개</NavLink> */}</li>
           </ul>
         </nav>
         <div className="header__member">
