@@ -43,7 +43,7 @@ const PostList = ({ posts }) => {
                 <td>{post.id}</td>
                 <td>{post.title}</td>
                 <td>{post.date}</td>
-                <td>{post.hits}</td>
+                <td>{post.views}</td>
               </tr>
             ))}
           </tbody>
