@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../assets/css/PostList.css";
 import "../assets/css/Pagination.css";
 import Pagination from "react-js-pagination";
-import axios from "axios";
 
-const PostList = () => {
+const PostList = ({ posts }) => {
   const [page, setPage] = useState(1);
-  const [posts, setPosts] = useState([]);
   const navigate = useNavigate();
   const postsPerPage = 10;
 
@@ -24,26 +22,8 @@ const PostList = () => {
   };
 
   const handleWriteButtonClick = () => {
-    navigate("/write");
+    navigate("/talk/write");
   };
-
-  // useEffect(() => {
-  //   axios
-  //     .get("https://jsonplaceholder.typicode.com/posts")
-  //     .then((response) => {
-  //       const formattedPosts = response.data.map((post) => ({
-  //         ...post,
-  //         date: new Date().toLocaleDateString(),
-  //         hits: Math.floor(Math.random() * 100),
-  //       }));
-  //       setPosts(formattedPosts);
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error : ", error);
-  //       setError("게시물을 불러오는 도중 오류가 발생했습니다.");
-  //       setLoading(false);
-  //     });
-  // }, []);
 
   return (
     <div className="post-table-container">
