@@ -27,23 +27,23 @@ const PostList = () => {
     navigate("/write");
   };
 
-  useEffect(() => {
-    axios
-      .get("https://jsonplaceholder.typicode.com/posts")
-      .then((response) => {
-        const formattedPosts = response.data.map((post) => ({
-          ...post,
-          date: new Date().toLocaleDateString(),
-          hits: Math.floor(Math.random() * 100),
-        }));
-        setPosts(formattedPosts);
-      })
-      .catch((error) => {
-        console.error("Error : ", error);
-        setError("게시물을 불러오는 도중 오류가 발생했습니다.");
-        setLoading(false);
-      });
-  }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get("https://jsonplaceholder.typicode.com/posts")
+  //     .then((response) => {
+  //       const formattedPosts = response.data.map((post) => ({
+  //         ...post,
+  //         date: new Date().toLocaleDateString(),
+  //         hits: Math.floor(Math.random() * 100),
+  //       }));
+  //       setPosts(formattedPosts);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error : ", error);
+  //       setError("게시물을 불러오는 도중 오류가 발생했습니다.");
+  //       setLoading(false);
+  //     });
+  // }, []);
 
   return (
     <div className="post-table-container">
