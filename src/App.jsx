@@ -21,7 +21,10 @@ function App() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const savedPosts = JSON.parse(localStorage.getItem("posts") || []);
+    const savedPosts = JSON.parse(localStorage.getItem("posts"));
+    if (!savedPosts) {
+      return;
+    }
     setPosts(savedPosts);
   }, []);
 
